@@ -34,7 +34,7 @@ The scanner user needs to have ssh-keys to the server in `~/.ssh`.
 
 ### Execution
 
-See `./scripts` for examples.
+See [`./scripts`](https://github.com/presidenten/cis-benchmark-allure-reporter/tree/master/scripts) in the [github repo](https://github.com/presidenten/cis-benchmark-allure-reporter) for examples.
 
 Put username and server info in `./scripts/config.sh`, then scan and host.
 ```bash
