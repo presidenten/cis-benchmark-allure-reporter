@@ -1,0 +1,24 @@
+{
+  "name": "cis-benchmark-allure-reporter",
+  "version": "1.0.0",
+  "description": "Convert dev-sec.io benchmarks to allure reports",
+  "main": "index.js",
+  "scripts": {
+    "prereport": "mkdir -p output/allure/history && cp -r output/allure/history output/allure-raw",
+    "report": "allure generate output/allure-raw -o output/allure --clean && echo '.alert__wide {display: none}' >> output/allure/styles.css;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/presidenten/cis-benchmark-allure-reporter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/presidenten/cis-benchmark-allure-reporter/issues"
+  },
+  "homepage": "https://github.com/presidenten/cis-benchmark-allure-reporter#readme",
+  "dependencies": {
+    "allure-commandline": "^2.13.0",
+    "allure-js-commons": "^1.3.2"
+  }
+}
