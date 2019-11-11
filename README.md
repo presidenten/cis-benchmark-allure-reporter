@@ -9,7 +9,7 @@ This is a docker image that generates Allure reports from https://dev-sec.io Che
 - [docker](https://github.com/dev-sec/cis-docker-benchmark)
 - [kubernetes](https://github.com/dev-sec/cis-kubernetes-benchmark)
 
-![Allure screenshot](./docs/allure.jpg)
+![Allure screenshot](https://github.com/presidenten/cis-benchmark-allure-reporter/raw/master/docs/allure.jpg)
 
 ---
 
@@ -20,7 +20,7 @@ Features
 - Allure collects a trend over compliance status
 - Test drilldown shows human readable description of each item
 
-![Allure screenshot](./docs/description.jpg)
+![Allure screenshot](https://github.com/presidenten/cis-benchmark-allure-reporter/raw/master/docs/description.jpg)
 
 ---
 
